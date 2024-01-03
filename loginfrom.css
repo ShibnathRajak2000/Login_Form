@@ -1,0 +1,80 @@
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: rgb(225, 201, 134);
+}
+.wrapper{
+    width: 480px;
+    background-color: rgb(180, 223, 190);
+    border-radius: 6px;
+}
+.wrapper .text{
+    line-height: 100px;
+    background-color: rgb(222, 191, 52);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(50, 64, 61);
+    border-radius: 8px 8px 0 0;
+}
+
+.wrapper form{
+    padding: 40px 40px 60px 40px;
+}
+.wrapper form .row{
+    height:50px;
+    margin-bottom: 13px;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+form .row input:focus{
+    border-color: #db300e;
+    box-shadow: inset 0px 0px 4px 4px rgba(212, 85, 11, 0.25);
+}
+.wrapper form .button input{
+    background-color: rgb(243, 178, 38);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.wrapper form .button input:hover{
+    background-color: brown;
+}
+.wrapper form .button input:active{
+    background-color: aqua;
+    color: white;
+}
+.wrapper form .pass{
+    margin-bottom: 5px;
+    margin-top: 2px;
+
+}
+.wrapper form .signup a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.wrapper form .signup a:hover{
+    text-decoration: underline;
+
+}
+
+.wrapper form .pass a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+
+}
+.wrapper form .signup{
+    text-align: center;
+}
